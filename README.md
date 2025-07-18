@@ -42,9 +42,10 @@ Use Python’s `collections.deque` for efficient O(1) `append` and `popleft`.
 
 ---
 ## Maintain window invariant
+```python
 while window condition is violated:
     shrink window from the left
-
+```
 ## Implementation
 
 ```python
