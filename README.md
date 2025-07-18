@@ -41,6 +41,9 @@ The queue always contains only the timestamps that fall within the 3000ms window
 Use Python’s `collections.deque` for efficient O(1) `append` and `popleft`.
 
 ---
+## Maintain window invariant
+while window condition is violated:
+    shrink window from the left
 
 ## Implementation
 
